@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<!-- JFVELTE - S4 i9515 "value edition" -->
+  <project name="jfvelte-dev/android_device_samsung_jfvelte" path="device/samsung/jfvelte" remote="github"  revision="cm-14.1"/>
+
+<!--- JF COMMON -->
+  <project name="CyanogenMod/android_device_samsung_jf-common" path="device/samsung/jf-common" remote="github"  revision="cm-14.1"/>
+  <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github"  revision="cm-14.1"/>
+  <project name="CyanogenMod/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github"  revision="cm-14.1"/>
+  <project name="jfvelte-dev/android_kernel_samsung_jf " path="kernel/samsung/jf" remote="github"  revision="cm-14.1"/>
+
+<!-- SAMSUNG COMMON -->
+  <project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" remote="github"  revision="cm-14.1"/>
+  <project name="CyanogenMod/android_external_stlport" path="external/stlport" remote="github"  revision="cm-14.1"/>
+
+<!-- MUPPETS VENDOR -->
+  <project name="jfvelte-dev/proprietary_vendor_samsung " path="vendor/samsung" remote="github" revision="cm-14.1"/>
+  <project path="vendor/qcom/binaries" name="TheMuppets/proprietary_vendor_qcom_binaries" remote="github" revision="cm-14.1"/>
+
+</manifest>
